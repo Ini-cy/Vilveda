@@ -1,0 +1,361 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #fff;
+
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #B270A2;
+  text-decoration: none;
+
+}
+
+.heading-div{
+  position: fixed;
+  display:inline-block;
+
+}
+.vilveda{
+  margin-left:10px;
+  margin-right: 500px;
+  padding:20px;
+  font-size: 20px;
+
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+.benefits-header{
+  padding-left: 420px;
+}
+.others{
+   margin-left:40px;
+  /* padding:100px 25px 0 25px  */
+
+}
+#home{
+  /* padding-bottom: 100px; */
+}
+.first-div{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  padding-top: 50px;
+  line-height: 10px;
+  color: #C689C6;
+
+}
+
+.title-major{
+  font-size: 120px;
+}
+
+.title:hover{
+  color:#04009A;
+}
+
+
+
+.image1{
+  padding-top: 30px;
+  width:30%;
+  padding-bottom: 45px;
+
+}
+
+#ratings-section{
+  /* padding-top: 300px;
+  padding-bottom: 300px; */
+  height: 100vh;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  background-color: #FCE2DB;
+  opacity: 0.8;
+
+}
+
+
+  /*CSS for medium width screens*/
+}
+
+
+
+
+.ratings-div{
+  text-align: center;
+
+}
+.fee{
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 10px;
+
+  color: #7A4495;
+}
+.fee-free{
+
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color:#0160FE;
+
+
+}
+.slider{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Benefits */
+#benefits{
+  text-align: center;
+  padding: 7% 15%;
+  height: 100vh;
+  color:#7A4495;
+  background: linear-gradient(#FCE2DB, #fff);
+  line-height: 10px;
+  padding-top: 50px;
+  font-size: 30px;
+  padding-bottom: 100px;
+  opacity: 0.8;
+
+}
+
+
+.container-fluid {
+  width: 100%
+}
+
+
+.ben{
+  padding-top: 160px;
+}
+
+#paid{
+  background: linear-gradient(#FCE2DB, #fff);
+  height: 100vh;
+}
+
+
+
+
+
+.row {
+    display: inline-flex;
+
+
+  }
+
+  .paid_div_1{
+    width: 50%;
+  }
+
+.paid_div_2{
+    width: 50%;
+  }
+
+.img2{
+  width:50%;
+  padding-left: 100px;
+  margin-left:100px;
+
+}
+
+.text{
+
+  margin-right: 1px;
+  padding-right: 200px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#7A4495;
+  font-size: 27px;
+  line-height: 35px;
+
+}
+.hone{
+  padding-top: 70px;
+
+
+
+}
+.hthree{
+  margin-top: -20px;
+  font-weight: 200;
+
+}
+
+.download-button{
+        margin-top: 10px;
+  			color: #000000;
+  			background: linear-gradient(#FCE2DB, #fff);
+  			font-size: 16px;
+  			border: 1px solid #dfceda;
+  			border-radius: 30px;
+  			padding: 15px 50px;
+  			letter-spacing: 2px;
+  			cursor: pointer
+
+}
+
+.download-button:hover {
+  color: #7A4495;
+  background-color: #ffffff;
+}
+
+#customer-service{
+  background:linear-gradient(#fff, #F5FFFA);
+  color: #7A4495;
+  height: 100vh;
+}
+
+
+
+
+
+.img4{
+  width:70%;
+  margin-left: 140px;
+}
+.img-div4{
+  text-align: center;
+
+}
+
+.text-div4{
+  padding-left: 85px;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.first-h2, .second-h2{
+  padding-bottom: 10px;
+}
+
+#reviews-section{
+  
+}
+
+.reviews-photos{
+  width: 30%;
+  border-radius: 50%;
+}
+
+.review1{
+  width: 20%;
+}
+#security{
+
+  /* padding-bottom: 250px; */
+ 
+  background:linear-gradient(#F5FFFA, #ECF1FD);
+
+}
+
+
+.securitty{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #A75BA7;
+  font-weight: 600;
+  font-size: 92px;
+  padding-bottom: 230px;
+
+}
+.explanations{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #A75BA7;
+}
+.explain1{
+  text-align: left;
+  margin-left: 32px;
+  padding-left: 140px;
+  padding-right: 40px;
+}
+.explain2{
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 140px;
+  margin-right: 20px;
+
+}
+
+.seven{
+  width:90%;
+}
+.image7{
+  margin-top: 40px;
+  margin-left:30px;
+
+
+}
+
+/* #borderless{
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background: linear-gradient(#F5FFFA, #ECF1FD);
+}
+
+.account{
+  text-align: left;
+  margin-left: 200px;
+  color: #A75BA7;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 100px;
+
+}
+
+.gth {
+  padding-top: 4px;
+  padding-bottom: 6px;
+} */
+#download-section{
+  background-color: #ECF1FD;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 250px; */
+  /* padding-bottom: 350px; */
+}
+
+
+
+.download-text{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Source Sans Pro', monospace;
+  color: #A75BA7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.download-buttons{
+  text-align: center;
+
+
+}
+
+.download-button2 {
+
+  margin-top: 10px;
+  color: #000000;
+  background-color:#ABC9FF;
+  font-size: 16px;
+  border: 1px solid #dfceda;
+  border-radius: 30px;
+  padding: 15px 50px;
+  letter-spacing: 2px;
+  cursor: pointer
+
+}
