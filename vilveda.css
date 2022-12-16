@@ -160,18 +160,18 @@ a {
 }
 
 /* Benefits */
-#benefits {
+/* #benefits {
   text-align: center;
   padding: 7% 15%;
-  /* height: 100vh; */
+  height: 100vh; 
   color: #7a4495;
   background-color: #fce2db;
-  /* background: linear-gradient(#fce2db, #fff); */
+  background: linear-gradient(#fce2db, #fff);
   line-height: 10px;
   padding-top: 50px;
   font-size: 30px;
   padding-bottom: 100px;
-}
+} */
 
 .container-fluid {
   width: 100%;
@@ -239,7 +239,8 @@ a {
 }
 
 #customer-service {
-  background: linear-gradient(#fff, #f5fffa);
+  /* background: linear-gradient(#fff, #ececec); */
+  background-color: #ffffff;
   color: #7a4495;
 }
 
@@ -265,6 +266,7 @@ a {
 }
 
 #reviews-section {
+  background: linear-gradient(#ffffff, #ecf1fd);
 }
 
 .reviews-photos {
@@ -275,8 +277,8 @@ a {
 .review1 {
   width: 20%;
 }
-#security {
-  /* padding-bottom: 250px; */
+/* #security {
+  /* padding-bottom: 250px; 
 
   background: linear-gradient(#f5fffa, #ecf1fd);
 }
@@ -288,7 +290,7 @@ a {
   font-weight: 600;
   font-size: 92px;
   padding-bottom: 230px;
-}
+} */
 .explanations {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
