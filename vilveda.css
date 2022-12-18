@@ -84,12 +84,13 @@ a {
   position: fixed;
   display: inline-block;
 }
-.vilveda {
+.vilveda-heading-text {
   margin-left: 10px;
   margin-right: 500px;
   padding: 20px;
   font-size: 20px;
-
+  text-decoration: none;
+  color: #b270a2;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
 }
@@ -98,6 +99,8 @@ a {
 }
 .others {
   margin-left: 40px;
+  text-decoration: none;
+  color: #b270a2;
   /* padding:100px 25px 0 25px  */
 }
 #home {
