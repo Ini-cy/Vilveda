@@ -1,361 +1,335 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: #fff;
-
-}
-a{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  color: #B270A2;
-  text-decoration: none;
-
 }
 
-.heading-div{
+/* Scrollbar settings */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #62b6b7;
+}
+
+.heading-div {
   position: fixed;
-  display:inline-block;
-
+  display: inline-block;
 }
-.vilveda{
-  margin-left:10px;
+.vilveda-heading-text {
+  margin-left: 10px;
   margin-right: 500px;
-  padding:20px;
+  padding: 20px;
   font-size: 20px;
-
+  text-decoration: none;
+  color: #b270a2;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
 }
-.benefits-header{
+.benefits-header {
   padding-left: 420px;
 }
-.others{
-   margin-left:40px;
-  /* padding:100px 25px 0 25px  */
+.others {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #b270a2;
+}
 
+/* Home section */
+
+#home {
 }
-#home{
-  /* padding-bottom: 100px; */
-}
-.first-div{
+.first-div {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   padding-top: 50px;
   line-height: 10px;
-  color: #C689C6;
-
+  color: #c689c6;
 }
 
-.title-major{
+.title-major {
   font-size: 120px;
 }
 
-.title:hover{
-  color:#04009A;
+.title:hover {
+  color: #04009a;
 }
 
-
-
-.image1{
+.image1 {
   padding-top: 30px;
-  width:30%;
+  width: 30%;
   padding-bottom: 45px;
-
 }
 
-#ratings-section{
-  /* padding-top: 300px;
-  padding-bottom: 300px; */
-  height: 100vh;
+/* Ratings Section */
+
+#ratings-section {
   display: flex;
-   align-items: center;
+  align-items: center;
   justify-content: center;
-  background-color: #FCE2DB;
+  background-color: #fce2db;
   opacity: 0.8;
-
 }
 
-
-  /*CSS for medium width screens*/
-}
-
-
-
-
-.ratings-div{
+.ratings-div {
   text-align: center;
-
 }
-.fee{
+.ratings-section-text {
   font-size: 60px;
   font-family: 'Montserrat', sans-serif;
-  line-height: 10px;
-
-  color: #7A4495;
+  color: #7a4495;
 }
-.fee-free{
-
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  color:#0160FE;
-
-
-}
-.slider{
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Benefits */
-#benefits{
-  text-align: center;
-  padding: 7% 15%;
-  height: 100vh;
-  color:#7A4495;
-  background: linear-gradient(#FCE2DB, #fff);
-  line-height: 10px;
-  padding-top: 50px;
-  font-size: 30px;
-  padding-bottom: 100px;
-  opacity: 0.8;
-
-}
-
 
 .container-fluid {
-  width: 100%
+  width: 100%;
 }
 
+/* More Information Section */
 
-.ben{
-  padding-top: 160px;
+#more-info-section {
+  background: linear-gradient(#fce2db, #fff);
+  opacity: 0.8;
 }
-
-#paid{
-  background: linear-gradient(#FCE2DB, #fff);
-  height: 100vh;
-}
-
-
-
-
 
 .row {
-    display: inline-flex;
-
-
-  }
-
-  .paid_div_1{
-    width: 50%;
-  }
-
-.paid_div_2{
-    width: 50%;
-  }
-
-.img2{
-  width:50%;
-  padding-left: 100px;
-  margin-left:100px;
-
+  display: inline-flex;
 }
 
-.text{
+.more-info_div_1 {
+  width: 50%;
+}
 
+.more-info_div_2 {
+  width: 50%;
+}
+
+.img2 {
+  width: 50%;
+  /* padding-left: 100px; */
+  margin-left: 100px;
+}
+
+.more-info-section-text {
   margin-right: 1px;
   padding-right: 200px;
-  font-family: 'Source Sans Pro', sans-serif;
-  color:#7A4495;
+  font-family: 'Playfair Display', serif;
+  color: #7a4495;
+  line-height: 1.1;
+}
+.more-info-h1 {
   font-size: 27px;
-  line-height: 35px;
-
 }
-.hone{
-  padding-top: 70px;
-
-
-
-}
-.hthree{
-  margin-top: -20px;
-  font-weight: 200;
-
-}
-
-.download-button{
-        margin-top: 10px;
-  			color: #000000;
-  			background: linear-gradient(#FCE2DB, #fff);
-  			font-size: 16px;
-  			border: 1px solid #dfceda;
-  			border-radius: 30px;
-  			padding: 15px 50px;
-  			letter-spacing: 2px;
-  			cursor: pointer
-
-}
-
-.download-button:hover {
-  color: #7A4495;
-  background-color: #ffffff;
-}
-
-#customer-service{
-  background:linear-gradient(#fff, #F5FFFA);
-  color: #7A4495;
-  height: 100vh;
-}
-
-
-
-
-
-.img4{
-  width:70%;
-  margin-left: 140px;
-}
-.img-div4{
-  text-align: center;
-
-}
-
-.text-div4{
-  padding-left: 85px;
-  text-align: left;
-  font-size: 25px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-}
-
-.first-h2, .second-h2{
-  padding-bottom: 10px;
-}
-
-#reviews-section{
-  
-}
-
-.reviews-photos{
-  width: 30%;
-  border-radius: 50%;
-}
-
-.review1{
-  width: 20%;
-}
-#security{
-
-  /* padding-bottom: 250px; */
- 
-  background:linear-gradient(#F5FFFA, #ECF1FD);
-
-}
-
-
-.securitty{
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #A75BA7;
-  font-weight: 600;
-  font-size: 92px;
-  padding-bottom: 230px;
-
-}
-.explanations{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+.more-info-h3 {
+  font-weight: 100;
   font-size: 20px;
-  color: #A75BA7;
-}
-.explain1{
-  text-align: left;
-  margin-left: 32px;
-  padding-left: 140px;
-  padding-right: 40px;
-}
-.explain2{
-  text-align: left;
-  padding-left: 40px;
-  padding-right: 140px;
-  margin-right: 20px;
-
 }
 
-.seven{
-  width:90%;
-}
-.image7{
-  margin-top: 40px;
-  margin-left:30px;
-
-
-}
-
-/* #borderless{
-  padding-top: 250px;
-  padding-bottom: 250px;
-  background: linear-gradient(#F5FFFA, #ECF1FD);
-}
-
-.account{
-  text-align: left;
-  margin-left: 200px;
-  color: #A75BA7;
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-  padding-right: 100px;
-
-}
-
-.gth {
-  padding-top: 4px;
-  padding-bottom: 6px;
-} */
-#download-section{
-  background-color: #ECF1FD;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* padding-top: 250px; */
-  /* padding-bottom: 350px; */
-}
-
-
-
-.download-text{
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Source Sans Pro', monospace;
-  color: #A75BA7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.download-buttons{
-  text-align: center;
-
-
-}
-
-.download-button2 {
-
+.download-button {
   margin-top: 10px;
   color: #000000;
-  background-color:#ABC9FF;
+  background: linear-gradient(#fce2db, #fff);
   font-size: 16px;
   border: 1px solid #dfceda;
   border-radius: 30px;
   padding: 15px 50px;
   letter-spacing: 2px;
-  cursor: pointer
+  cursor: pointer;
+}
 
+.download-button:hover {
+  color: #7a4495;
+  background-color: #ffffff;
+}
+
+/* Benefits Section */
+#benefits-section {
+  /* background: linear-gradient(#fff, #ececec); */
+  background-color: #ffffff;
+  color: #7a4495;
+}
+
+.img4 {
+  width: 70%;
+  margin-left: 140px;
+}
+.benefits-section-div1 {
+  text-align: center;
+}
+
+.benefits-section-div2 {
+  padding-left: 85px;
+  padding-top: 75px;
+  text-align: left;
+  font-size: 55px;
+  font-family: 'Caveat', cursive;
+}
+
+.benefits-text {
+  padding-bottom: 10px;
+}
+
+/* Reviews/ Testimonial Section*/
+#reviews-section {
+  background: linear-gradient(#ffffff, #ecf1fd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.carousel-item {
+  margin-top: 100px;
+}
+
+.reviews-photos {
+  width: 10%;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.reviews-section-text {
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 30px;
+}
+
+/* Download Section */
+#download-section {
+  background-color: #ecf1fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-text {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Source Sans Pro', monospace;
+  color: #a75ba7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-buttons {
+  text-align: center;
+}
+
+.download-button2 {
+  margin-top: 10px;
+  color: #000000;
+  background-color: #abc9ff;
+  font-size: 16px;
+  border: 1px solid #dfceda;
+  border-radius: 30px;
+  padding: 15px 50px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* Styles for screens that are at most 600px wide */
+@media screen and (max-width: 600px) {
+  #home {
+    height: 50vh;
+  }
+  #ratings-section {
+    height: 50vh;
+  }
+  #more-info-section {
+    height: 50vh;
+  }
+  #benefits-section {
+    height: 50vh;
+  }
+  #reviews-section {
+    height: 50vh;
+  }
+  #download-section {
+    height: 50vh;
+  }
+}
+
+/* styles for screens between 600 - 900px */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  #home {
+    height: 70vh;
+  }
+  #ratings-section {
+    height: 70vh;
+  }
+  #more-info-section {
+    height: 70vh;
+  }
+  #benefits-section {
+    height: 70vh;
+  }
+  #reviews-section {
+    height: 70vh;
+  }
+  #download-section {
+    height: 70vh;
+  }
+}
+
+/* Styles for screens that are at least 1000px wide */
+@media screen and (min-width: 1000px) {
+  #home {
+    /* height: 100vh; */
+  }
+  #ratings-section {
+    height: 100vh;
+  }
+  #more-info-section {
+    height: 100vh;
+  }
+  #benefits-section {
+    height: 100vh;
+  }
+  #reviews-section {
+    height: 100vh;
+  }
+  #download-section {
+    height: 100vh;
+  }
+}
+
+.benefits-text {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  /* font-size: 1.6rem; */
+  width: 0;
+  animation: typing 3.5s steps(20, end) forwards, blink 1.2s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
