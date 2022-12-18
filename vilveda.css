@@ -122,7 +122,9 @@ a {
 .title:hover {
   color: #04009a;
 }
-
+/* #vilveda-home-image-div {
+  opacity: 0.3;
+} */
 .image1 {
   padding-top: 30px;
   width: 30%;

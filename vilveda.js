@@ -21,5 +21,25 @@ function change() {
 
 setInterval(change, 2000);
 
+var timer;
+var currentOp;
+var op = document.getElementById('vilveda-home-image-div');
+currentOp = getComputedStyle(op).getPropertyValue('opacity');
+currentOp = 0.3;
+
+function increaseOpacity() {
+  currentOp += 0.1;
+  op.style.opacity = currentOp;
+}
+
+function runTime() {
+  timer = setInterval(increaseOpacity, 500);
+}
+
+if (currentOp < 1.0) {
+  runTime();
+}
+
+console.log(currentOp);
 
 // use a while loop instead
