@@ -29,10 +29,9 @@ function runTime() {
 if (currentOpacity < 1.0) {
   runTime();
 }
-
+let moreInfo = document.getElementById('more-info-section');
 window.addEventListener('scroll', function () {
   var value = window.scrollY;
 
-  vilvedaImage.style.top = -value * 0.5 + 'px';
-  console.log(vilvedaImage.style.top);
+  moreInfo.style.top = -value * 0.5 + 'px';
 });
