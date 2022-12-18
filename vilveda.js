@@ -40,18 +40,12 @@ if (currentOpacity < 1.0) {
   runTime();
 }
 
+
 window.addEventListener('scroll', function () {
   var value = window.scrollY;
 
-  // text.style.left = -value * 0.15 + 'px';
-  // about.style.top = -value*0.50 + 'px';
-  // pg4.style.top = -value*0.50 + 'px';
-  // pg1.style.top = -value*0.50 + 'px';
-  // pg2.style.top = -value*0.50 + 'px';
-  // pg3.style.top = -value*0.50 + 'px';
-  // pg1.style.top = value*0.50 + 'px';
-  // pg2.style.top = value*0.50 + 'px';
-  // pg3.style.top = value*0.50 + 'px';
+  vilvedaImage.style.top = -value * 0.5 + 'px';
+  console.log(vilvedaImage.style.top);
 });
 
 // use a while loop instead

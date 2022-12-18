@@ -150,7 +150,7 @@ a {
 .fee {
   font-size: 60px;
   font-family: 'Montserrat', sans-serif;
-  line-height: 10px;
+  /* line-height: 10px; */
   color: #7a4495;
 }
 .fee-free {
@@ -207,24 +207,27 @@ a {
 
 .img2 {
   width: 50%;
-  padding-left: 100px;
+  /* padding-left: 100px; */
   margin-left: 100px;
 }
 
 .text {
   margin-right: 1px;
   padding-right: 200px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: #7a4495;
-  font-size: 27px;
-  line-height: 35px;
+
+  line-height: 1.1;
+  /* line-height: 35px; */
 }
 .hone {
-  padding-top: 70px;
+  /* padding-top: 70px; */
+  font-size: 27px;
 }
 .hthree {
-  margin-top: -20px;
-  font-weight: 200;
+  /* margin-top: -20px; */
+  font-weight: 100;
+  font-size: 20px;
 }
 
 .download-button {
@@ -260,43 +263,52 @@ a {
 
 .text-div4 {
   padding-left: 85px;
+  padding-top: 75px;
   text-align: left;
-  font-size: 25px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  font-size: 55px;
+  font-family: 'Caveat', cursive;
+  /* font-weight: 400; */
 }
 
 .first-h2,
 .second-h2 {
+  /* padding-bottom: 10px; */
+}
+.benefits-text {
   padding-bottom: 10px;
 }
 
 #reviews-section {
   background: linear-gradient(#ffffff, #ecf1fd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.carousel-item {
+  margin-top: 100px;
 }
 
 .reviews-photos {
   width: 10%;
   border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-.review1 {
-  width: 20%;
-}
-/* #security {
-  /* padding-bottom: 250px; 
-
-  background: linear-gradient(#f5fffa, #ecf1fd);
+.reviews-section-text {
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 30px;
 }
 
-.securitty {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #a75ba7;
-  font-weight: 600;
-  font-size: 92px;
-  padding-bottom: 230px;
-} */
 .explanations {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
@@ -387,10 +399,4 @@ a {
 .btn-next {
   top: 45%;
   right: 2%;
-}
-
-.carousel-inner {
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
