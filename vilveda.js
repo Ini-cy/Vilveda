@@ -22,24 +22,36 @@ function change() {
 setInterval(change, 2000);
 
 var timer;
-var currentOp;
-var op = document.getElementById('vilveda-home-image-div');
-currentOp = getComputedStyle(op).getPropertyValue('opacity');
-currentOp = 0.3;
+var currentOpacity;
+var vilvedaImage = document.getElementById('vilveda-home-image-div');
+currentOpacity = getComputedStyle(vilvedaImage).getPropertyValue('opacity');
+currentOpacity = 0.3;
 
 function increaseOpacity() {
-  currentOp += 0.1;
-  op.style.opacity = currentOp;
+  currentOpacity += 0.1;
+  vilvedaImage.style.opacity = currentOpacity;
 }
 
 function runTime() {
   timer = setInterval(increaseOpacity, 500);
 }
 
-if (currentOp < 1.0) {
+if (currentOpacity < 1.0) {
   runTime();
 }
 
-console.log(currentOp);
+window.addEventListener('scroll', function () {
+  var value = window.scrollY;
+
+  // text.style.left = -value * 0.15 + 'px';
+  // about.style.top = -value*0.50 + 'px';
+  // pg4.style.top = -value*0.50 + 'px';
+  // pg1.style.top = -value*0.50 + 'px';
+  // pg2.style.top = -value*0.50 + 'px';
+  // pg3.style.top = -value*0.50 + 'px';
+  // pg1.style.top = value*0.50 + 'px';
+  // pg2.style.top = value*0.50 + 'px';
+  // pg3.style.top = value*0.50 + 'px';
+});
 
 // use a while loop instead
