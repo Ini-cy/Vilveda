@@ -11,16 +11,15 @@
 // document.getElementById("words").innerHTML = "yourTextHere";
 var i = 0;
 function change() {
-  var tag = document.getElementById("words");
-  var txt = ["INVEST","SELL","SAVE","TRADE"]
+  var tag = document.getElementById('words');
+  var txt = ['INVEST', 'SELL', 'SAVE', 'TRADE'];
   // tag.style.innerHTML = txt[i];
-  document.getElementById("words").innerHTML = txt[i];
+  document.getElementById('words').innerHTML = txt[i];
 
   i = (i + 1) % txt.length;
-
 }
 
-setInterval(change,2000);
+setInterval(change, 2000);
 
 
- // use a while loop instead
+// use a while loop instead

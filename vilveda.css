@@ -6,7 +6,7 @@ body {
   background-color: #fff;
 }
 
-/* Styles for screens that are at least 600px wide */
+/* Styles for screens that are at most 600px wide */
 @media screen and (max-width: 600px) {
   #home {
     height: 50vh;
@@ -28,6 +28,7 @@ body {
   }
 }
 
+/* styles for screens between 600 - 900px */
 @media screen and (max-width: 900px) and (min-width: 600px) {
   #home {
     height: 70vh;
@@ -270,7 +271,7 @@ a {
 }
 
 .reviews-photos {
-  width: 30%;
+  width: 10%;
   border-radius: 50%;
 }
 
@@ -371,4 +372,20 @@ a {
   padding: 15px 50px;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
